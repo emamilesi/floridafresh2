@@ -111,9 +111,6 @@
     </div>
 
 <!-- Maps-->
-<div class="txtcenter">
-  <h1>Encontra nuestro local en Google Maps</h1>
-</div>
 
 <div class="mapouter">
   <div class="gmap_canvas">
@@ -127,9 +124,12 @@
 <style>
 .mapouter {
   position: relative;
-  text-align: right;
+  text-align: center;
   width: 100%;
-  padding-bottom: 56.25%; 
+  padding-bottom: 56.25%; /* Proporción 16:9 para establecer la altura en función del ancho */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .gmap_canvas {
