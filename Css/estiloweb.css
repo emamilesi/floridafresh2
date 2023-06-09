@@ -102,18 +102,6 @@ nav a:hover {
     background-color: #021410;
 }
 
-.contenedor .photo,
-.contenedor .photo4 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.contenedor .photo img,
-.contenedor .photo4 img {
-    max-width: 100%;
-}
-
 .card {
     display: inline-flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
