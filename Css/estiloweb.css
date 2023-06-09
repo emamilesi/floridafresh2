@@ -43,6 +43,10 @@ nav a:hover {
     float: right;
 }
 
+.photo {
+    width: 100%;
+}
+
 .d-flex {
     position: absolute;
     left: 1300px;
