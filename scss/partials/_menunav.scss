@@ -1,0 +1,35 @@
+/* Menú de navegación */
+.header {
+    box-shadow: 2px 2px 5px #999;
+  }
+  
+  nav a:hover {
+    background: #add8a6;
+    color: rgb(6, 112, 15);
+  }
+  
+  .nav-item {
+    font-size: 22px;
+    padding: 3%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+  
+  .d-flex {
+    margin-right: 12%;
+    margin-top: 1%;
+  }
+  
+  .form-control {
+    width: 500px;
+  }
+  
+  .canasto {
+    float: right;
+  }
+  
+  .d-flex {
+    position: absolute;
+    left: 1300px;
+    font-family: Arial, Helvetica, sans-serif;
+  }

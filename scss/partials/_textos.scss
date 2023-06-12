@@ -1,0 +1,82 @@
+/* Textos */
+.contenedor {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contenedor .textbox h2,
+  .contenedor .textboxservicios h2 {
+    color: #000000;
+    font-size: 4em;
+    line-height: 1.1;
+    font-weight: 500;
+    padding: 15px;
+    margin: 15px;
+  }
+  
+  .contenedor .textbox h2 span,
+  .contenedor .textboxservicios h2 span {
+    color: #0b3005;
+    font-size: 1em;
+    font-weight: 900;
+  }
+  
+  .contenedor .textbox p,
+  .contenedor .textboxservicios p {
+    color: #333;
+    padding: 20px;
+    margin: 15px;
+    font-size: 30px;
+  }
+  
+  .boton {
+    display: block;
+    width: 190px;
+    font-weight: 600;
+    background-color: #0b3005;
+    border-radius: 68px;
+    padding: 16px;
+    margin: 35px;
+  }
+  
+  .boton a {
+    font-size: 19px;
+    color: #ffffff;
+  }
+  
+  .boton:hover {
+    background-color: #021410;
+  }
+  
+  .card {
+    display: inline-flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: center;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .card .price {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    background-color: #0b5041;
+  }

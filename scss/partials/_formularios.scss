@@ -1,0 +1,71 @@
+/* Formularios */
+.formulario3 {
+    background: #fff;
+    padding: 15px;
+  }
+  
+  .formulario3 h1.registro {
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+  }
+  
+  .formulario3 input[type="text"],
+  .formulario3 input[type="password"] {
+    font-size: 20px;
+    width: 82%;
+    padding: 20px;
+    border: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .formulario3 .input-formulario3 {
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+  }
+  
+  .formulario3 .icon {
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+  }
+  
+  .formulario3 .button,
+  .formulario3 .button2 {
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formulario3 .button {
+    width: 50%;
+    background: #1a2537;
+  }
+  
+  .formulario3 .button2 {
+    background: #1a2537;
+  }
+  
+  .formulario3 .button:hover,
+  .formulario3 .button2:hover {
+    background: rgb(11, 102, 67);
+  }
+  
+  .formulario3 p {
+    margin-left: 0%;
+  }
+  
+  .formulario3 .link {
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .formulario3 .link:hover {
+    color: rgb(9, 110, 39);
+  }
